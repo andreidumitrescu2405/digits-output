@@ -1,6 +1,22 @@
 copy con filename (creates new file)
 mkdir foldername (creates new folder)
 
+3 stages of git
+-Untracked: the file exists, but is not part of git's version control
+-Staged: the file has been added to git's version control but changes have not been committed
+-Committed: the change has been committed
+
+
 Git Bash Commands:
 git config --global user.name "fname lname"
 git config --global user.email ""email address"
+
+
+Steps for initialising project into github:
+1. -cd folderproject
+2. -git init (initialising git on the project)
+3. -echo "# reponame" >> README.md (adds a readme file to the repository)
+4. -git add .
+5. -git commit -m "first commit"
+6. -git remote add origin https://github.com/..
+7. -git push -u origin master
