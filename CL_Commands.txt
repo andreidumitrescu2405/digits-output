@@ -1,0 +1,6 @@
+copy con filename (creates new file)
+mkdir foldername (creates new folder)
+
+Git Bash Commands:
+git config --global user.name "fname lname"
+git config --global user.email ""email address"
