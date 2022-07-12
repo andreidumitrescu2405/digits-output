@@ -20,3 +20,6 @@ Steps for initialising project into github:
 5. -git commit -m "first commit"
 6. -git remote add origin https://github.com/..
 7. -git push -u origin master
+
+git commit -a -m "add new vendor" (to move to the stage)
+git push origin master
