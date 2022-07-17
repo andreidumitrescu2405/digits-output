@@ -23,3 +23,36 @@ Steps for initialising project into github:
 
 git commit -a -m "add new vendor" (to move to the stage)
 git push origin master
+
+git log (prints the commits in cronological order, the most recent appearing first)
+git log -number (shows number commits)
+git log --oneline (brief details)
+git log --stat (no of insertions and deletions per commit)
+git log --patch (detailed commits)
+
+git rm filename (removes a file, git stopped tracking the file but it needs to commit to apply the changes)
+git rm --cached filename (git stopped tracking the file but didnt completely removed it)
+git mv filename newfilename (modify name)
+
+git checkout -b new_branch (create and check new branch, it started pointing to the new branch not to the master branch)
+git checkout master (pointing to the master branch)
+
+git add . \n git stash (to solve the overriding problem)
+
+git merge new_branch (merges the new_branch and the master branch)
+
+git reset --soft (will move the specific commit back into your staging area)
+git reset --mixed / git reset (will move the specific commit back into your working directory)
+git reset --hard (removes completely the commit)
+
+git clone URL (in the current directory)
+
+git branch - list all the branches
+git checkout <branch-name> - switch to work in a different branch (-b)
+git branch -m <oldbranch> <newbranch> (renames a branch)
+git branch -d <branchname> (delete)
+git branch -D <branchname> (force delete)
+git checkout <target-branch> (the branch that we want to be merging to)
+git merge <source-branch> (merges the source-branch to the target-branch)
+git diff <branch1> <branch2> (get the differences between branches)
+git cherry-pick <sha> (get the specific commit to master branch)
